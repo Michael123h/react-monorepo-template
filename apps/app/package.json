@@ -1,0 +1,22 @@
+{
+  "name": "@monoreponame/app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "pnpm vite --mode development",
+    "build": "pnpm vite build --mode production",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "catalog:",
+    "react-dom": "catalog:",
+    "react-router": "catalog:"
+  },
+  "imports": {
+    "#/*": "./src/*"
+  },
+  "devDependencies": {
+    "@monoreponame/node-utils": "workspace:*"
+  }
+}

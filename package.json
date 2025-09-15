@@ -1,0 +1,54 @@
+{
+  "name": "monorepo",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "cross-env NODE_OPTIONS=--max-old-space-size=8192 turbo build",
+    "build:analyze": "turbo build:analyze",
+    "build:app": "pnpm -F @monoreponame/app run build",
+    "postinstall": "pnpm -r run stub --if-present",
+    "preinstall": "npx only-allow pnpm",
+    "clean": "node ./scripts/clean.mjs",
+    "dev": "turbo-run dev",
+    "dev:app": "pnpm -F @monoreponame/app run dev"
+  },
+  "devDependencies": {
+    "ts-plugin-sort-import-suggestions": "1.0.4",
+    "@monoreponame/eslint-config": "workspace:*",
+    "@monoreponame/prettier-config": "workspace:*",
+    "@monoreponame/tailwind-config": "workspace:*",
+    "@monoreponame/tsconfig": "workspace:*",
+    "@monoreponame/turbo-run": "workspace:*",
+    "@monoreponame/vite-config": "workspace:*",
+    "@types/node": "catalog:",
+    "@types/react": "catalog:",
+    "@types/react-dom": "catalog:",
+    "oxlint": "catalog:",
+    "rimraf": "catalog:",
+    "tailwindcss": "catalog:",
+    "turbo": "catalog:",
+    "typescript": "catalog:",
+    "unbuild": "catalog:",
+    "vite": "catalog:"
+  },
+  "engines": {
+    "node": ">=20.10.0",
+    "pnpm": ">=9.12.0"
+  },
+  "packageManager": "pnpm@10.10.0",
+  "pnpm": {
+    "peerDependencyRules": {
+      "allowedVersions": {
+        "eslint": "*"
+      }
+    },
+    "overrides": {
+      "@ast-grep/napi": "catalog:",
+      "esbuild": "0.25.3",
+      "react": "catalog:"
+    },
+    "neverBuiltDependencies": [
+      "node-gyp"
+    ]
+  }
+}

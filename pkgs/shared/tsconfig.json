@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "extends": "@monoreponame/tsconfig/web.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "noEmit": false,
+    "composite": true,
+    "declaration": true,
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "include": ["src"],
+  "exclude": ["node_modules"]
+}

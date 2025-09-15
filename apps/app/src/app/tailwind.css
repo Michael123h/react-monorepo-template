@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@config '@monoreponame/tailwind-config';
+
+@theme {
+  /* ... */
+}

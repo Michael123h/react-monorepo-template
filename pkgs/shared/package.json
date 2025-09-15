@@ -1,0 +1,29 @@
+{
+  "name": "@monoreponame/shared",
+  "version": "1.0.0",
+  "license": "MIT",
+  "type": "module",
+  "main": "./src/index.ts",
+  "types": "./src/index.ts",
+  "exports": {
+    ".": {
+      "types": "./src/index.ts",
+      "development": "./src/index.ts",
+      "default": "./src/index.ts"
+    },
+    "./ui": {
+      "types": "./src/ui/index.ts",
+      "development": "./src/ui/index.ts",
+      "default": "./src/ui/index.ts"
+    }
+  },
+  "dependencies": {
+    "tailwindcss": "catalog:",
+    "axios": "catalog:",
+    "react": "catalog:",
+    "react-dom": "catalog:"
+  },
+  "devDependencies": {
+    "typescript": "catalog:"
+  }
+}
