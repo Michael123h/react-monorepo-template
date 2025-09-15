@@ -14,7 +14,6 @@
 - React v19 & React DOM v19
 - React Router v7
 - Tailwind v4
-- Minimalistic Layouts
 - Prettier + ESlint (oxlint)
 
 ## Features
